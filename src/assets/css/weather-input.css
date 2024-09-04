@@ -5,7 +5,7 @@
     height: 100vh;
     padding: 50px;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     font-family: 'Heebo', sans-serif;
     color: #6e6e6e;
 }
@@ -23,7 +23,7 @@
 }   
 
 #weather-input-container {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 12px;
     padding: 50px;
     flex-direction: column;
@@ -91,7 +91,7 @@ button:hover {
 
 #weather-container {
     background-color: #DDE4E6;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     display: flex;
     justify-content: center;
     align-items: center;

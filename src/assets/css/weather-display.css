@@ -1,5 +1,5 @@
 .weather-card {
-    width: 100%; 
+    width: 60% !important; 
     background-color: #26737d;
     border-radius: 16px;
     text-align: center;
