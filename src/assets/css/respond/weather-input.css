@@ -1,0 +1,85 @@
+
+/* Mobile */
+@media (max-width: 767px) {
+    .weather-app-grid {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    #weather-input-container {
+        padding: 30px;
+    }
+
+    #weather-container {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .input-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .location-info {
+        margin-top: 50px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .weather-app-grid {
+        grid-template-columns: 1fr;
+        padding: 40px;
+    }
+
+    #weather-container {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .input-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+
+    button {
+        width: auto;
+    }
+
+    .location-info {
+        margin-top: 50px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .weather-app-grid {
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+    }
+
+    #weather-container {
+        width: auto;
+    }
+
+    .location-info {
+        margin-top: 50px;
+    }
+}

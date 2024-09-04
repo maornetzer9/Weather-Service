@@ -1,0 +1,48 @@
+
+/* Mobile */
+@media (max-width: 767px) {
+    .weather-card {
+        padding: 15px;
+    }
+
+    .temperature {
+        align-items: center;
+        font-size: 4rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .weather-card {
+        padding: 20px;
+        width: 80%;
+    }
+
+    .temperature {
+        font-size: 5rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .weather-card {
+        width: 50%;
+        padding: 30px;
+    }
+
+    .temperature {
+        font-size: 6rem; 
+    }
+
+    .location-info {
+        position: absolute; 
+        bottom: 20px;
+        left: 20px;
+        text-align: left;
+        margin-top: 0; 
+    }
+
+    .location-info p:last-child {
+        grid-column: span 2;
+    }
+}
